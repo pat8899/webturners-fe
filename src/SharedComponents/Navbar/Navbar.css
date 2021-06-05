@@ -1,0 +1,19 @@
+.navbar_container {
+    margin: 0 auto;
+        background-color: grey;
+    }
+    .navbar_subcon {
+        max-width: 960px;
+        height: 100px;
+        margin: 2rem auto;
+        display: flex;
+    }
+    .navbar_subcon_l {
+        max-width: 260px;
+        height: 100px;
+        margin: 2rem auto;
+        display: flex;
+    }
+    .img {
+        max-width: 100%;
+    }
