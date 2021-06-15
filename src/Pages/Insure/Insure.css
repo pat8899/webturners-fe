@@ -1,0 +1,124 @@
+.Insure_container {
+    margin: 0 auto;
+        background-color:#dbdbdb;
+    }
+
+.Insure_wrapper {
+    max-width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-template-rows: repeat(4, 100px);
+    }
+
+.Detail_list {
+    margin-top: 50px;
+}
+
+.img_line {
+    
+    width: 960px;
+    max-height: 2px;
+    margin-top: 2px;
+}
+.head {
+    
+    width: 960px;
+    max-height: 40px;
+}
+.Insure_header {
+    margin-bottom: 2px;
+    margin-top: 80px;
+}
+.Detail_input {
+    border-color: grey;
+    border: 1px solid rgba(17, 17, 17, 0.32);
+    box-sizing: border-box;
+    width: 450px;
+    height: 40px;
+    border-radius: 4px;
+    position: absolute;
+    left: 880px;
+}
+
+.Detail_input1 {
+    border-color: grey;
+    border: 1px solid rgba(17, 17, 17, 0.32);
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    position: absolute;
+    left: 880px;
+}
+.Detail_input2 {
+    border-color: grey;
+    border: 1px solid rgba(17, 17, 17, 0.32);
+    box-sizing: border-box;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    position: absolute;
+    left: 880px;
+}
+.banner-btn1 {
+    background:rgb(77, 76, 76);
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    color:white;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin-left: 4rem;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 1100px;
+}
+.banner-btn1:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: rgb(192, 180, 180);
+}
+.banner-btn2 {
+    background: rgb(116, 115, 115);
+    display: inline-block;
+    padding: 12px 65px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.banner-btn2:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: rgb(200, 209, 200);
+}
+
+.banner-btn3 {
+    background: rgb(61, 60, 60);
+    display: inline-block;
+    padding: 12px 65px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 1000px;
+}
+.banner-btn3:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: rgb(200, 209, 200);
+}
